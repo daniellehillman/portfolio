@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniellehillman/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniellehillman/portfolio/issues"
+  },
+  "homepage": "https://github.com/daniellehillman/portfolio#readme",
+  "dependencies": {
+    "create-react-app": "^3.4.1",
+    "react": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  }
+}

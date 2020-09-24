@@ -1,0 +1,38 @@
+* {
+    background-color: #AF9783;
+    font-family: sans-serif;
+    color: #D6CBC1;
+    box-sizing: border-box;
+
+
+    
+    /* box-sizing: border-box; */
+  }
+  
+  /* main {
+    background-color: #AF9783;
+    /* margin: 40px; 
+  }
+
+   */
+  .name {
+    font-family: sans-serif;
+    color: #D6CBC1;
+  }
+  body, .navbar {
+    height: 100%;
+    width: 100%;
+    background-color: #AF9783;
+    font-family: 'Cormorant', serif;
+    color: #D6CBC1;
+    text-align: center;
+  }
+
+.padding {
+    padding: 15px;
+    background-color: #AF9783;
+}
+
+footer {
+    text-align: center;
+}
