@@ -24,17 +24,16 @@ const Home = () => {
         {/* <CardImg className="img-fluid" top width="100%" src={pokemon} alt="pokemon" /> */}
         <CardBody>
           <CardTitle></CardTitle>
-          <hr/>
           <CardSubtitle> <p>Hello! I am Danielle Hillman, a recent college graduate from Chapman University.
 
 Currently, I am an aspiring Web Developer and enrolled in UCI's Coding Bootcamp for Full Stack Web Development.</p></CardSubtitle>
           <hr/>
-          <ul>Some things that I love:
-          <li>my family & friends</li>
-          <li>coffee shops</li>
-          <li>traveling</li>
-          <li>health & wellness</li>
-          </ul>
+          <h3 class='title'>Some things that I love:</h3>
+          <p class='title'>my family & friends</p>
+          <p class='title'>coffee shops</p>
+          <p class='title'>traveling</p>
+          <p class='title'>health & wellness</p>
+        
           <hr/>
           <h3 className="title">Experience</h3>
           <CardText>

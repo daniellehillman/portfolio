@@ -24,13 +24,14 @@ const Home = () => {
       <Card >
         {/* <CardImg className="img-fluid" top width="100%" src={burger} alt="burgerapp" /> */}
         <CardBody>
-          <CardTitle>Burger App</CardTitle>
+          <CardTitle className='title'>Sensify</CardTitle>
           <hr/>
-          <CardSubtitle><p>Link to <a href="https://github.com/brianra2nil/burger">Github URL</a></p></CardSubtitle>
+          <CardSubtitle><p className='title'>Link to <a href="https://daniellehillman.github.io/Sensify/">Application</a></p></CardSubtitle>
+          <CardSubtitle><p className='title'>Link to <a href="https://github.com/daniellehillman/Sensify">Github URL</a></p></CardSubtitle>
+    
+{/*     
           <hr/>
-          <CardSubtitle><a class="btn btn-primary btn-sm" href="https://whispering-retreat-82332.herokuapp.com/" target="_blank" role="button">Deployed Site</a></CardSubtitle>
-          <hr/>
-          <CardText>If you love burgers, you can list all the burgers you want to try on this app and then click on Devour it! to keep a list of burgers you tried.  Use of MySQL databases to get, put, post and delete entries into the database and render into the frontend.  Also deployed on Heroku.</CardText>
+          <CardText>This is my first group project, Sensify</CardText> */}
           
         </CardBody>
       </Card>
@@ -40,13 +41,11 @@ const Home = () => {
       <Card >
         {/* <CardImg className="img-fluid" top width="100%" src={codequiz} alt="codequiz" /> */}
         <CardBody>
-          <CardTitle>Code Quiz</CardTitle>
+          <CardTitle className= 'title'>Code Quiz</CardTitle>
           <hr/>
-          <CardSubtitle><p>Link to <a href="https://github.com/brianra2nil/codequiz2">Github URL</a>.</p></CardSubtitle>
-          <hr/>
-          <CardSubtitle><a class="btn btn-primary btn-sm" href="https://brianra2nil.github.io/codequiz2/" target="_blank" role="button">Deployed site</a></CardSubtitle>
-          <hr/>
-          <CardText>When users start the quiz, their score is recorded and displayed.  There is a timer that will bring you back to the start if time runs out.  Users lose points for incorrect answers.  Top score and username is recorded through local storage.</CardText>
+          <CardSubtitle><p className='title'>Link to <a href="https://daniellehillman.github.io/codequiz/">Application</a></p></CardSubtitle>
+          <CardSubtitle><p className='title'>Link to <a href="https://github.com/daniellehillman/codequiz">Github URL</a></p></CardSubtitle>
+      
           
         </CardBody>
       </Card>
@@ -56,14 +55,12 @@ const Home = () => {
       <Card >
         {/* <CardImg className="img-fluid" top width="100%" src={coview19} alt="coview19" /> */}
         <CardBody>
-          <CardTitle>Coview19</CardTitle>
+          <CardTitle className='title'>Coview19</CardTitle>
           <hr/>
-          <CardSubtitle> <p>Link to <a href="https://github.com/mattjavier/coview-19">Github URL</a></p></CardSubtitle>
-          <hr/>
-          {/* <CardSubtitle><a class="btn btn-primary btn-sm" href="https://sleepy-forest-03534.herokuapp.com/" target="_blank" role="button">Deployed site</a></CardSubtitle> */}
-          <hr/>
-          <CardText><p>Text Here.</p>
-        <p>Text Here</p></CardText>
+          <CardSubtitle> <p className='title'>Link to <a href="https://sleepy-forest-03534.herokuapp.com/">Application</a></p></CardSubtitle>
+          <CardSubtitle> <p className='title'> Link to <a href="https://github.com/mattjavier/coview-19">Github URL</a></p></CardSubtitle>
+      
+        
           
         </CardBody>
       </Card>
@@ -71,18 +68,18 @@ const Home = () => {
 
       </Row>
 <br></br>
-      <Row xs="3" className= 'padding'>
+      <Row xs="3" className= 'title'>
        <Col >
       <Card >
         {/* <CardImg className="img-fluid" top width="100%" src={employeesummary} alt="employeesummary" /> */}
         <CardBody>
-          <CardTitle>Employee Summary</CardTitle>
+          <CardTitle className= 'title'>Work Day Schedule</CardTitle>
           <hr/>
-          <CardSubtitle><p>Link to <a href="https://github.com/brianra2nil/employeesummary">Github URL</a></p></CardSubtitle>
-          <hr/>
-          <CardSubtitle><a class="btn btn-primary btn-sm" href="https://drive.google.com/file/d/1DgVWX5phd9eE-12su9Lj-BvVGqQP5hNP/view" target="_blank" role="button">Video Demonstration</a></CardSubtitle>
-          <hr/>
-          <CardText>Text Here.</CardText>
+          <CardSubtitle><p>Link to <a href="https://daniellehillman.github.io/workdayschedule/">Application</a></p></CardSubtitle>
+          <CardSubtitle> <p className='title'> Link to <a href="https://github.com/daniellehillman/workdayschedule">Github URL</a></p></CardSubtitle>
+        
+          {/* <hr/>
+          <CardText>Text Here.</CardText> */}
           
         </CardBody>
       </Card>
@@ -92,13 +89,13 @@ const Home = () => {
       <Card >
         {/* <CardImg className="img-fluid" top width="100%" src={notetaker} alt="notetaker" /> */}
         <CardBody>
-          <CardTitle>Text Here</CardTitle>
+          <CardTitle className= 'title'>Weather Dashboard</CardTitle>
           <hr/>
-          <CardSubtitle><p>Link to <a href="https://github.com/brianra2nil/notetaker">Github URL</a>.</p></CardSubtitle>
-          <hr/>
-          <CardSubtitle><a class="btn btn-primary btn-sm" href="https://stormy-peak-85156.herokuapp.com/" target="_blank" role="button">Deployed site</a></CardSubtitle>
-          <hr/>
-          <CardText>Text Here</CardText>
+          <CardSubtitle><p>Link to <a href="https://daniellehillman.github.io/weatherdashboard/">Application</a></p></CardSubtitle>
+          <CardSubtitle> <p className='title'> Link to <a href="https://github.com/daniellehillman/weatherdashboard">Github URL</a></p></CardSubtitle>
+      
+          {/* <hr/>
+          <CardText>Text Here</CardText> */}
           
         </CardBody>
       </Card>
@@ -108,13 +105,15 @@ const Home = () => {
       <Card >
         {/* <CardImg className="img-fluid" top width="100%" src={pokemon} alt="pokemon" /> */}
         <CardBody>
-          <CardTitle>Pokemon App</CardTitle>
+          <CardTitle className= 'title'>Burger</CardTitle>
           <hr/>
-          <CardSubtitle> <p>Link to <a href="https://github.com/Kalynbsimms/pokeProject">Github URL</a></p></CardSubtitle>
-          <hr/>
-          <CardSubtitle><a class="btn btn-primary btn-sm" href="https://kalynbsimms.github.io/pokeProject/" target="_blank" role="button">Deployed site</a></CardSubtitle>
-          <hr/>
-          <CardText><p>Text Here</p></CardText>
+
+
+          <CardSubtitle><p>Link to <a href="https://github.com/daniellehillman/burger">Application</a></p></CardSubtitle>
+          <CardSubtitle> <p className='title'> Link to <a href="https://github.com/daniellehillman/burger">Github URL</a></p></CardSubtitle>
+        
+          {/* <hr/>
+          <CardText><p>Text Here</p></CardText> */}
           
         </CardBody>
       </Card>
